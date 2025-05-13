@@ -1,5 +1,3 @@
-
-
 services:
   server:
     image: ghcr.io/abhijit4-debug/my_federation:latest
