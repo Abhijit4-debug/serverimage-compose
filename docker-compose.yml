@@ -1,6 +1,6 @@
 services:
   server:
-    image: ghcr.io/abhijit4-debug/my_federation:latest
+    image: ghcr.io/abhijit4-debug/my_federation:modified
     command: fx aggregator start
     ports:
       - "5000:5000"
