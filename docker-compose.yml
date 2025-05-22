@@ -3,5 +3,5 @@ services:
     image: ghcr.io/abhijit4-debug/server:latest
     command: fx aggregator start
     ports:
-      - "5000:5000"  # Expose the port your server listens on
-  
+      - "5000:5000"
+    working_dir:  /workspace
