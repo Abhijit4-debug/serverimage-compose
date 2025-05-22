@@ -1,6 +1,6 @@
 services:
   server:
-    image: ghcr.io/abhijit4-debug/aggregator:modified1
+    image: ghcr.io/abhijit4-debug/aggregator:1.6
     command: fx aggregator start
     ports:
       - "5000:5000"
