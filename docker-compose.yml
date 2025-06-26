@@ -1,7 +1,8 @@
 services:
   server:
-    image: ghcr.io/abhijit4-debug/my_federation:modified
+    # image: ghcr.io/abhijit4-debug/my_federation:modified
+    image: ghcr.io/abhijit4-debug/server:1.9
     command: fx aggregator start
     ports:
       - "5000:5000"
-    # working_dir:  /workspace
+    working_dir:  /workspace
