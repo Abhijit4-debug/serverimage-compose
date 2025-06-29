@@ -1,7 +1,8 @@
 services:
   server:
     # image: ghcr.io/abhijit4-debug/my_federation:modified
-    image: ghcr.io/abhijit4-debug/server:modified1.9
+    # image: ghcr.io/abhijit4-debug/server:modified1.9  #histology
+    image: ghcr.io/abhijit4-debug/server_mnist:1.9      #mnist
     command: fx aggregator start
     ports:
       - "5000:5000"
